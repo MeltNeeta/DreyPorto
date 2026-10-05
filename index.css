@@ -6,3 +6,7 @@
     --cream: #f8eade;
     --mocca: #cfb59e;
 }
+
+a {
+    text-decoration: none;
+}
