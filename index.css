@@ -170,3 +170,31 @@ section {
     font-size: 14px;
     margin-top: -40px;
 }
+
+/* EDUCATION */
+.edu {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: var(--white);
+    font-family: "Arimo", sans-serif;
+    width: 1000px;
+    border-radius: 40px;
+}
+.edu h3 {
+    font-size: 24px;
+}
+.edu .container {
+    margin-top: 20px;
+}
+.edu .container table {
+    display: block;
+    flex-direction: column;
+    gap: 30px;
+}
+.edu .container .line-edu {
+    background-color: var(--lightpink);
+    width: 2px;
+    height: 6px;
+}
