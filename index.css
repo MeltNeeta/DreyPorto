@@ -297,6 +297,12 @@ section {
     cursor: pointer;
     margin-left: 10px;
     margin-top: 20px;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-10px);}
 }
 .project button:hover {
     color: var(--lightpink);
@@ -372,6 +378,7 @@ section {
     cursor: pointer;
     margin-left: 10px;
     margin-top: 20px;
+    animation: bounce 1s infinite;
 }
 .skills button:hover {
     color: var(--lightpink);
@@ -383,6 +390,11 @@ section {
 /* footer */
 footer {
     background-color: var(--pink);
-    margin-top: 40px;
-    min-height: 200px;
+    font-size: 14px;
+    margin-top: 60px;
+    min-height: 50px;
+    text-align: center;
+    font-family: "Akt", sans-serif;
+    color: var(--black);
+    box-shadow: 0 -15px 10px 10px var(--pink);
 }
