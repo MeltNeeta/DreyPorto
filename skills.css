@@ -1,0 +1,148 @@
+:root {
+    --black: #0d222f;
+    --pink: #f178a1;
+    --lightpink: #f1c8d6;
+    --grey: #4d5962;
+    --white: #e8e4ec;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 25rem;
+    position: fixed;
+    margin-top: -125px;
+}
+header h1 {
+    color: var(--lightpink);
+    font-family: "League Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+header td a {
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: "Akt", sans-serif;
+    font-weight: bolder;
+    color: var(--white);
+    border-radius: 50px;
+}
+header td a:hover {
+    font-size: 18px;
+    transition: 0.25s;
+    color: var(--black);
+    background-color: var(--pink);
+}
+
+
+/* main */
+.title {
+    margin-top: 125px;
+    text-align: center;
+}
+.title h1 {
+    font-family: "Black Ops One", system-ui;
+    font-size: 36px;
+    color: transparent;
+    -webkit-text-stroke: 0.8px var(--black);
+    font-weight: bold;
+}
+.title p {
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    color: var(--pink);
+    font-weight: bold;
+    background-color: #0d222f;
+    max-width: 300px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    justify-self: center;
+    margin-top: -10px;
+}
+
+/* isi */
+.mini-title {
+    justify-items: center;
+    margin-top: 70px;
+}
+.mini-title h3 {
+    font-size: 24px;
+    color: var(--black);
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+.container {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--black);
+    width: 1100px;
+    justify-self: center;
+    border-radius: 40px;
+    padding: 20px 0px;
+}
+.content {
+    font-family: "Arimo", sans-serif;
+    color: var(--white);
+    box-shadow: 0 0 2px 1px var(--pink);
+    border-radius: 20px;
+}
+.content h4 {
+    color: var(--pink);
+}
+.content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin-left: -35px;
+    gap: 10px;
+    font-size: 14px;
+}
+.soft .content {
+    max-width: 240px;
+    padding: 10px 10px;
+}
+.tech .content {
+    min-width: 300px;
+    padding: 10px 10px;
+}
+.lang .content {
+    min-width: 300px;
+    padding: 10px 10px;
+}
+.content span {
+    font-size: 40px;
+}
+
+/* footer */
+footer {
+    background-color: var(--pink);
+    font-size: 14px;
+    margin-top: 60px;
+    min-height: 50px;
+    text-align: center;
+    font-family: "Akt", sans-serif;
+    color: var(--white);
+    box-shadow: 0 -15px 10px 10px var(--pink);
+}
