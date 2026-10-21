@@ -28,6 +28,7 @@ header {
     gap: 25rem;
     position: fixed;
     margin-top: -125px;
+    z-index: 100;
 }
 header h1 {
     color: var(--lightpink);
@@ -87,6 +88,12 @@ header td a:hover {
     color: var(--black);
     font-family: "Arimo", sans-serif;
     text-align: center;
+    border: 2px solid var(--pink);
+    border-top: solid var(--lightpink);
+    border-left: solid var(--lightpink);
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
 .container {
     margin-top: 20px;
@@ -133,6 +140,16 @@ header td a:hover {
 }
 .content span {
     font-size: 40px;
+    color: var(--black);
+    background-color: var(--pink);
+    padding: 10px;
+    border-radius: 100%;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-5px);}
 }
 
 /* footer */

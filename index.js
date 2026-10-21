@@ -34,5 +34,3 @@ serOnly.addEventListener("click", function(){
     desCon.forEach(card => card.style.display = 'none');
     serCon.forEach(card => card.style.display = 'block');
 });
-
-console.log("hai")
